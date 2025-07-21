@@ -1,0 +1,51 @@
+:root {
+  /* Light mode (default) */
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --card-bg: #fff;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --header-bg: #1a1a1a;
+  --header-text: #fff;
+  --accent-color: #ff5722;
+  --secondary-bg: #f9f9f9;
+  --secondary-text: #666;
+  --border-color: #eee;
+  --popup-bg: #fff;
+  --popup-header: #1a1a1a;
+  --pagination-bg: #f9f9f9;
+  --pagination-button: #3f51b5;
+  --pagination-button-disabled: #c5cae9;
+  --card-hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --poster-placeholder: linear-gradient(to bottom, #3f51b5, #303f9f);
+  --loading-bg: #2196f3;
+  --error-color: #f44336;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #eee;
+  --card-bg: #1e1e1e;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  --header-bg: #000;
+  --header-text: #fff;
+  --accent-color: #ff5722;
+  --secondary-bg: #2d2d2d;
+  --secondary-text: #b0b0b0;
+  --border-color: #333;
+  --popup-bg: #1e1e1e;
+  --popup-header: #000;
+  --pagination-bg: #2d2d2d;
+  --pagination-button: #ff5722;
+  --pagination-button-disabled: #4d4d4d;
+  --card-hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  --poster-placeholder: linear-gradient(to bottom, #303f9f, #1a237e);
+  --loading-bg: #ff5722;
+  --error-color: #ff6659;
+}
+
+/* Apply themes to body */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+} 
